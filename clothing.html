@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing</title>
+  <style>
+    body{
+      font-family:Impact;
+    }
+    .center{
+      text-align:center;
+    }
+    h1 {
+      text-align:center;
+    }
+    #women{
+      color:#FFC0CB;
+      font-size:20px;
+    }
+    #men{
+      color:blue;
+      font-size:20px;
+    }
+    #women-table{
+      background-color:pink;
+    }
+    #men-table{
+      background-color:#0000FF;
+    }
+    .right{
+      text-align:right;
+    }
+    table, th, td{
+      border: 5px solid black;
+      text-align:center;
+    }
+    #girl{
+      color:red;
+    }
+    #gt {
+      background-color:red;
+    }
+    #boy{
+      color:green;
+    }
+    #bt{
+      background-color:#008000;
+    }
+    ul{
+      font-size:25px;
+    }
+  </style>
+</head>
+<body>
+  <h1>The 3 Stipes Life</h1>
+  <h3 id="women">Women</h3>
+  <table id="women-table">
+    <tr>
+      <th>Image</th>
+      <th>Item</th>
+      <th>Cost</th>
+      <th>Size Avaible</th>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/40b0b1971dc9451a80e4aee1008f02f0_9366/adidas_Ski_Chic_Rib_Track_Jacket_Beige_IA3913_01_laydown.jpg" height="150px" width="150px"></td>
+      <td>ADIDAS SKI CHIC RIB TRACK JACKET</td>
+      <td>$80</td>
+      <td>2XS, XS, S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/72f17e30a56f44bc9a4eaeb70101b369_9366/Hyperglam_French_Terry_Hoodie_Purple_HZ9669_HM1.jpg" height="150px" width="150px"></td>
+      <td>HYPERGLAM FRENCH TERRY HOODIE</td>
+      <td>$70</td>
+      <td>XS, S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2e596edc44884006a9cbaef3011a34de_9366/Adicolor_Heritage_Now_Flared_Track_Pants_Red_IB2020_HM1.jpg" height="150px" width="150px"></td>
+      <td>ADICOLOR HERITAGE NOW FLARED TRACK PANTS</td>
+      <td>$90</td>
+      <td>2XS, XS, S, M, L, XL</td>
+    </tr>
+  </table>
+  <p>Buy Now!</p>
+  <form>
+    <label for="WJ">ADIDAS SKI CHIC RIB TRACK JACKET</label>
+    <input id="WJ" type="checkbox"><br>
+    <label for="WH">HYPERGLAM FRENCH TERRY HOODIE</label>
+    <input id="WH" type="checkbox"><br>
+    <label for="WP">ADICOLOR HERITAGE NOW FLARED TRACK PANTS</label>
+    <input id="WP" type="checkbox"><br>
+    <input type="submit" value="Buy">
+  </form>
+  
+  <h3 id="men">Men</h3>
+  <table id="men-table">
+    <tr>
+      <th>Image</th>
+      <th>Item</th>
+      <th>Cost</th>
+      <th>Size Avaible</th>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b1d6b77b674c46a9851bae6101333d88_9366/X-City_Full-Zip_Hoodie_Beige_HI5374_21_model.jpg" height="150px" width="150px"></td>
+      <td>X-CITY FULL-ZIP HOODIE</td>
+      <td>$110</td>
+      <td>XS, S, M, L, XL, 2XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/873d209022864bdc9c2eae7000ffb8c2_9366/Camo_Series_Allover_Print_Hoodie_Yellow_HK2804_21_model.jpg" height="150px" width="150px"></td>
+      <td>CAMO SERIES ALLOVER PRINT HOODIE</td>
+      <td>$85</td>
+      <td>XS, S, M, L, XL, 2XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b990d2250e62476c9a1eaeb500e55560_9366/Adicolor_Adibreak_Pants_Blue_HK7476_21_model.jpg" height="150px" width="150px"></td>
+      <td>ADICOLOR ADIBREAK PANTS</td>
+      <td>$100</td>
+      <td>XS, S, M, L, XL, 2XL</td>
+    </tr>
+  </table>
+  <p>Buy Now!</p>
+  <form>
+    <label for="MH">X-CITY FULL-ZIP HOODIE</label>
+    <input id="MH" type="checkbox"><br>
+    <label for="Mh">CAMO SERIES ALLOVER PRINT HOODIE</label>
+    <input id="Mh" type="checkbox"><br>
+    <label for="MP">ADICOLOR ADIBREAK PANTS</label>
+    <input id="MP" type="checkbox"><br>
+    <input type="submit" value="Buy">
+  </form>
+  
+  <h3 id="girl">Girls</h3>
+  <table id="gt">
+    <tr>
+      <th>Image</th>
+      <th>Item</th>
+      <th>Cost</th>
+      <th>Size Avaible</th>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/d3736d68fcea4a0f9f55aef200ff89c9_9366/Melange_Graphic_Fleece_Pullover_Hoodie_Black_GB3435_01_laydown.jpg" height="150px" width="150px"></td>
+      <td>MÉLANGE GRAPHIC FLEECE PULLOVER HOODIE</td>
+      <td>$45</td>
+      <td>XS, S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/880151a42304499b9445aefa00d0d8b2_9366/Allover_Print_Logo_Fleece_Pullover_Hoodie_Pink_GB2743_21_model.jpg" height="150px" width="150px"></td>
+      <td>ALLOVER PRINT LOGO FLEECE PULLOVER HOODIE</td>
+      <td>$45</td>
+      <td>XS, S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/37577d0e33184c74893fae5500aaff34_9366/Adicolor_Wide_Pants_Black_HK0347_01_laydown.jpg" height="150px" width="150px"></td>
+      <td>ADICOLOR WIDE PANTS</td>
+      <td>$45</td>
+      <td>XS, S, M, L, XL</td>
+    </tr>
+  </table>
+  <p>Buy Now!</p>
+  <form>
+    <label for="GH">MÉLANGE GRAPHIC FLEECE PULLOVER HOODIE</label>
+    <input id="Gh" type="checkbox"><br>
+    <label for="gh">ALLOVER PRINT LOGO FLEECE PULLOVER HOODIE</label>
+    <input id="gh" type="checkbox"><br>
+    <label for="GP">ADICOLOR WIDE PANTS</label>
+    <input id="GP" type="checkbox"><br>
+    <input type="submit" value="Buy">
+  </form>
+  
+  <h3 id="boy">Boys</h3>
+  <table id="bt">
+    <tr>
+      <th>Image</th>
+      <th>Item</th>
+      <th>Cost</th>
+      <th>Size Avaible</th>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/12db5dc199104e2b918faeeb012f98f9_9366/Camo_Allover_Print_Pullover_Hoodie_(Extended_Size)_Blue_GB0960_41_detail.jpg" height="150px" width="150px"></td>
+      <td>CAMO ALLOVER PRINT PULLOVER HOODIE</td>
+      <td>$50</td>
+      <td>S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/781e777094ec45c2807cae2e00eda0b8_9366/Water_Tiger_Camo_Pullover_Hoodie_Black_GB2869_01_laydown.jpg" height="150px" width="150px"></td>
+      <td>WATER TIGER CAMO PULLOVER HOODIE</td>
+      <td>$45</td>
+      <td>S, M, L, XL</td>
+    </tr>
+    <tr>
+      <td><img src="https://assets.adidas.com/images/w_320,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7cf91d379ba458c8451ae610054381a_9366/Big_Kids_Trae_Young_Pants_Blue_HI1002_01_laydown.jpg" height="150px" width="150px"></td>
+      <td>BIG KIDS TRAE YOUNG PANTS</td>
+      <td>$55</td>
+      <td>2XL, XS, S, M, L, XL</td>
+    </tr>
+  </table>
+  <p>Buy Now!</p>
+  <form>
+    <label for="BH">CAMO ALLOVER PRINT PULLOVER HOODIE</label>
+    <input id="BH" type="checkbox"><br>
+    <label for="bh">WATER TIGER CAMO PULLOVER HOODIE</label>
+    <input id="bh" type="checkbox"><br>
+    <label for="bp">BIG KIDS TRAE YOUNG PANTS</label>
+    <input id="bp" type="checkbox"><br>
+    <input type="submit" value="Buy">
+  </form>
+  
+  <h1>Continue Shoping!!!</h1>
+  <ul>
+    <li><a href="shoes.html">Shoes</a></li>
+    <li><a href="Football.html">Football</a></li>
+    <li><a href="index.html">Main Page</a></li>
+  </ul>
+  <img style="text-align:center;" width="150px" height="150px" src="https://pbs.twimg.com/profile_images/1564162499888517121/2Pn8AyNV_400x400.png"> 
+</body>
+</html>
